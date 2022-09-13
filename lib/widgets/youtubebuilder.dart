@@ -44,8 +44,6 @@ class _YoutubeeState extends State<Youtubee> {
       builder: ((context, player) =>
           ScreenUtil().orientation == Orientation.portrait
               ? SizedBox(
-                  width: 1.sw,
-                  height: 600.h,
                   child: Column(
                     children: [
                       AspectRatio(
