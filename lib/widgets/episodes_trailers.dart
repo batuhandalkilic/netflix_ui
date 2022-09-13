@@ -89,7 +89,6 @@ class _EpisodesTrailersState extends State<EpisodesTrailers> {
 
   tabScreens() {
     return IndexedStack(
-      sizing: StackFit.expand,
       index: _currentStackIndex,
       children: [
         SizedBox(
@@ -110,6 +109,7 @@ class _EpisodesTrailersState extends State<EpisodesTrailers> {
           ),
         ),
         SizedBox(
+          height: 600.h,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
@@ -117,7 +117,7 @@ class _EpisodesTrailersState extends State<EpisodesTrailers> {
               Expanded(
                 flex: 4,
                 child: Placeholder(
-                  child: Center(child: Text("İlginizi Çekebilecek yapımlar")),
+                  child: Center(child: Text("İlginizi çekebilecek yapımlar")),
                 ),
               ),
             ],
