@@ -23,7 +23,6 @@ class _SeasonDropDownState extends State<SeasonDropDown> {
             iconSize: 32,
             icon: Icon(Icons.keyboard_arrow_down_sharp),
             value: changedValue,
-            hint: Text("Şehir Seçiniz"),
             items: [
               DropdownMenuItem<String>(value: "0", child: Text("Sezon 1")),
               DropdownMenuItem<String>(value: "1", child: Text("Sezon 2")),
